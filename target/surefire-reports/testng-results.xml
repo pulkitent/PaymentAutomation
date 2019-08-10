@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27479" started-at="2019-08-10T17:58:36Z" finished-at="2019-08-10T17:59:04Z">
+    <groups>
+    </groups>
+    <test name="Transaction TestCases" duration-ms="27479" started-at="2019-08-10T17:58:36Z" finished-at="2019-08-10T17:59:04Z">
+      <class name="com.gojeck.testcase.Homepage">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gojeck.testcase.Homepage@3c153a1]" name="basePageNavigation" duration-ms="11393" started-at="2019-08-10T23:28:36Z" data-provider="gatData" finished-at="2019-08-10T23:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4811 1111 11111114]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0220]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[112233]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gojeck.testcase.Homepage@3c153a1]" name="basePageNavigation" duration-ms="15997" started-at="2019-08-10T23:28:48Z" data-provider="gatData" finished-at="2019-08-10T23:29:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4911 1111 11111113]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0220]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[112233]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gojeck.testcase.Homepage@3c153a1]" name="tearDown" is-config="true" duration-ms="79" started-at="2019-08-10T23:29:04Z" finished-at="2019-08-10T23:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gojeck.testcase.Homepage -->
+    </test> <!-- Transaction TestCases -->
+  </suite> <!-- Suite -->
+</testng-results>

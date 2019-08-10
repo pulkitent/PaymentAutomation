@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2fd2435-5883-48fe-8b6a-7d9700e46af8" name="Default Changelist" comment="" />
+    <list default="true" id="e2fd2435-5883-48fe-8b6a-7d9700e46af8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gojeck/testcase/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gojeck/testcase/Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gojeck/testcase/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gojeck/testcase/base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomeScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/HomeScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gojeck/testcase/Homepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gojeck/testcase/Homepage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gojeck/testcase/base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gojeck/testcase/base.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/HomeScreen.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gojeck/testcase/Homepage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+            <state relative-caret-position="135">
+              <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,25 +39,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gojeck/testcase/Homepage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gojeck/testcase/base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-135">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -69,14 +64,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/WebScreens/Homepage.java" />
         <option value="$PROJECT_DIR$/src/main/java/base.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/data.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Homepage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/Homepage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gojeck/testcase/frameTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gojeck/testcase/framework/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/framework/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/HomeScreen.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data.properties" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/gojeck/testcase/Homepage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gojeck/testcase/base.java" />
       </list>
     </option>
   </component>
@@ -121,28 +120,6 @@
               <item name="Midtrans" type="b2602c69:ProjectViewProjectNode" />
               <item name="Midtrans" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Midtrans" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Midtrans" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Midtrans" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Midtrans" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Midtrans" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Midtrans" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -160,6 +137,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testcase" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Midtrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Midtrans" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -169,7 +151,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565457745793" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565464705401" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -180,6 +162,8 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/java/com/gojeck/testcase" />
     </key>
   </component>
@@ -259,21 +243,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Homepage_basePageNavigation - 2019.08.10 at 22h 23m 03s.xml">
-      <configuration name="Homepage.basePageNavigation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Homepage_basePageNavigation - 2019.08.10 at 22h 24m 59s.xml">
-      <configuration name="Homepage.basePageNavigation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Homepage_basePageNavigation - 2019.08.10 at 22h 26m 22s.xml">
-      <configuration name="Homepage.basePageNavigation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Homepage_basePageNavigation - 2019.08.10 at 22h 27m 49s.xml">
-      <configuration name="Homepage.basePageNavigation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Homepage_basePageNavigation - 2019.08.10 at 22h 32m 06s.xml">
-      <configuration name="Homepage.basePageNavigation" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Homepage_basePageNavigation - 2019.08.10 at 22h 33m 00s.xml">
       <configuration name="Homepage.basePageNavigation" configurationId="TestNG" />
     </history-entry>
@@ -289,11 +258,26 @@
     <history-entry file="Homepage_basePageNavigation - 2019.08.10 at 22h 45m 42s.xml">
       <configuration name="Homepage.basePageNavigation" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Homepage_basePageNavigation - 2019.08.10 at 23h 05m 57s.xml">
+      <configuration name="Homepage.basePageNavigation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Homepage_basePageNavigation - 2019.08.10 at 23h 12m 16s.xml">
+      <configuration name="Homepage.basePageNavigation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Homepage_basePageNavigation - 2019.08.10 at 23h 17m 59s.xml">
+      <configuration name="Homepage.basePageNavigation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Homepage_basePageNavigation - 2019.08.10 at 23h 38m 24s.xml">
+      <configuration name="Homepage.basePageNavigation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Homepage_basePageNavigation - 2019.08.10 at 23h 40m 05s.xml">
+      <configuration name="Homepage.basePageNavigation" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980783" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17217524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -303,16 +287,16 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Job Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45736435" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970452" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40124416" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32970452" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2799378" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32868218" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3281493" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -332,6 +316,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FeatureFiles/SuccessTransactionflow.feature" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/Homepage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gojeck/testcase/frameTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/scenario2.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/PilotManagement.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/scenario1.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/framework/TestRunner.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/framework/Assertions.java" />
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/HomeScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/data.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -339,16 +346,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gojeck/testcase/frameTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/scenario2.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/PilotManagement.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/scenario1.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/framework/TestRunner.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/framework/Assertions.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/HomeScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gojeck/testcase/Homepage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -357,21 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gojeck/testcase/base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gojeck/testcase/Homepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-135">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

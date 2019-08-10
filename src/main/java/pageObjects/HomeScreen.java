@@ -22,6 +22,7 @@ public class HomeScreen {
     By insideframe2=By.xpath("//iframe[starts-with(@src,'https://api.sandbox.veritrans.co.id')]");
     By ok=By.xpath("//*[@type='submit']");
     By ordersummary=By.xpath("//*[@class='text-page-title-content']");
+    By selectpaytext=By.xpath("//*[@class='text-page-title-content']");
 
 //    By password=By.xpath("//form[@class='form-horizontal']/div[5]/div/input");
 
@@ -89,5 +90,6 @@ public class HomeScreen {
     public WebElement getorderSummary(){
         return driver.findElement(ordersummary);
     }
+    public WebElement getselectPayText(){return  driver.findElement(selectpaytext); }
 
 }

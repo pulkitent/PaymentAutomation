@@ -1,18 +1,20 @@
 package com.gojeck.testcase;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 public class base {
     public WebDriver driver;
+    public Properties properties;
     public WebDriver initializeDriver() throws IOException {
-        Properties properties=new Properties();
+        properties=new Properties();
         FileInputStream fileInputStream=new FileInputStream("/home/administrator/repo/Midtrans/src/main/resources/data.properties");
         properties.load(fileInputStream);
         String browserName=properties.getProperty("browser");
@@ -28,4 +30,5 @@ public class base {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
     }
+
 }
