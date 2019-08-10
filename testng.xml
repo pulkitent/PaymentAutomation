@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Transaction TestCases">
     <classes>
-      <class name="com.gojeck.testcase.Homepage"/>
+      <class name="com.gojeck.testcase.WebPageTest"/>
           </classes>
       </test>
 

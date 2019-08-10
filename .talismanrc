@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: .idea/sonarlint/issuestore/index.pb
+  checksum: 13d433ab6cd816af37fd1b9639c71e811ed91042ce2881761758e4461565721c
+  ignore_detectors: []
